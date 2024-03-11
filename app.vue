@@ -1,6 +1,8 @@
 <template>
   <div :class="{ dark: darkMode }">
     <div class="bg-white dark:bg-dim-900">
+
+
       <div class="min-h-full">
         <div class="grid grid-cols-12 mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:gap-5">
           <!-- Left Sidebar -->
@@ -11,8 +13,8 @@
           </div>
 
           <!-- Main Content -->
-          <main class="col-span-12 bg-red-500 md:col-span-8 xl:col-span-6">
-            <h1>dwqdqwdwq</h1>
+          <main class="col-span-12  md:col-span-8 xl:col-span-6">
+            <NuxtPage />
           </main>
 
           <!-- Right Sidebar -->
@@ -27,6 +29,8 @@
         </div>
   
       </div>
+
+      
     </div>
   </div>
 </template>
